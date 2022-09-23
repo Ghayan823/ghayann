@@ -1,0 +1,49 @@
+
+        <html>
+          <body><html>
+
+    <head>
+        <title> Media </title>
+        <style>
+         
+        </style>
+
+       
+       </head>
+
+        <body>
+          
+            <img id="bunny" src="https://c.tenor.com/J2BmDJtjvpoAAAAC/coucou-rabbit.gif" />
+            <br>
+            <button id="btn" onclick="changeRabit()" > Hide </button>
+       
+        </body>
+
+        <script>
+        var hide = 0; 
+        function changeRabit()
+        {
+            if ( hide == 0)
+            {
+           alert("Do you wanna hide the bunny")
+           document.getElementById("bunny").style = "visibility:hidden"
+           document.getElementById("btn").innerText = "Unhide"
+           hide = 1
+            }
+            else 
+            {
+                 alert("Do you wanna show the bunny")
+           document.getElementById("bunny").style = "visibility:visible"
+           document.getElementById("btn").innerText = "Hide"
+           hide = 0
+            }
+
+        }
+        </script>
+</html></body>
+          <style>svg {
+    background-color: lightblue;
+}</style>
+          <script></script>
+        </html>
+      
